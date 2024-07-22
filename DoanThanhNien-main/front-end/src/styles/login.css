@@ -1,0 +1,85 @@
+.container-login {
+  background-image: url("https://img4.thuthuatphanmem.vn/uploads/2020/06/22/background-doan-thanh-nien-don-gian-ma-dep_093954295.png");
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+
+.main-login {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  background-color: rgb(32, 32, 32, 0.1);
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+.main-login h3 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.item-login {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px 5px 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+}
+.item-login span {
+  font-size: 20px;
+  width: 10%;
+}
+.item-login input {
+  border: none;
+  width: 90%;
+  background-color: transparent;
+}
+
+.item-login input:focus {
+  outline: none;
+}
+.item-login .eye-button {
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.item-button {
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-button button {
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.item-button button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+  margin-left: 20px;
+}
